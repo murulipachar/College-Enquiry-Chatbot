@@ -2,7 +2,7 @@
 import flask
 import os
 from flask import Flask, request, make_response, jsonify
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqLalchemy import SQLAlchemy
 from werkzeug.utils import secure_filename
 from flask_migrate import Migrate
 from socket import gethostname
